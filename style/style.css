@@ -1,0 +1,12 @@
+.input-group {
+  margin-top: 10px;
+}
+
+.table {
+  margin-top: 5px;
+}
+
+td:first-of-type, td:first-of-type > div {
+  height: 150px;
+  width: 180px;
+}

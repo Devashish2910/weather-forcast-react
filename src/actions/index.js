@@ -8,7 +8,7 @@ export const FETCH_WEATHER = 'FETCH_WEATHER';
 
 export const searchBtnClick = txtSearch => {
 
-  let url = `${ROOT_URL}&q=${txtSearch},us&units=metric`;
+  let url = `${ROOT_URL}&q=${txtSearch},us&units=imperial`;
   const request = axios.get(url);
 
   return {
